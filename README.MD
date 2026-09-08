@@ -5,3 +5,20 @@ Electronic interface for balancing individual throttle bodies or carburettors us
 The interface is designed to be as flexible as possible, allowing for between 2-6 cylinders.
 
 Balancing is done by looking at the minimum port pressure on each sensor across a cycle. Results can be averaged across the previous *n* cycles for smoother reporting. Live statistical data is presented on a TFT display in graphical form.
+
+
+### Sensors Connector Pinout
+
+**Connector:**	DB9 Male
+
+| Pin # | Description |
+|:-----:|:------------|
+| 1 | map1 |
+| 2 | map2 |
+| 3 | map3 |
+| 4 | map4 |
+| 5 | map5 |
+| 6 | map6 |
+| 7 | N/C |
+| 8 | +5V |
+| 9 | GND |
